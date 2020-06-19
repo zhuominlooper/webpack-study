@@ -1,0 +1,1 @@
+module.exports='hello webpack'//node语法
