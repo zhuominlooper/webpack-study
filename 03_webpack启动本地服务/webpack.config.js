@@ -10,8 +10,7 @@ module.exports={
     },
     devServer:{
         host: 'localhost',
-        open: true, //第一次构建完成打开页面       
-        hot: false, //保存自动更新false会自动更新页面     
+        open: true, //第一次构建完成打开页面           
         openPage: 'index.html', //打开指定页面       
         port: '8888', //自定义端口       
         contentBase: path.resolve('./build/'),

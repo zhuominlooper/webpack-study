@@ -1,0 +1,27 @@
+{
+  "name": "webpack-study",
+  "version": "1.0.0",
+  "description": "webpack4.0的学习，构建自动打包的webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "webpack-dev-server",
+    "dev":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuominlooper/webpack-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuominlooper/webpack-study/issues"
+  },
+  "homepage": "https://github.com/zhuominlooper/webpack-study#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
