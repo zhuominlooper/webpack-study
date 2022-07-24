@@ -1,0 +1,24 @@
+{
+  "name": "cus-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "cus-pack": "./bin/cus-pack.js"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.18.9",
+    "@babel/traverse": "^7.18.9",
+    "@babel/types": "^7.18.9",
+    "babylon": "^6.18.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8"
+  }
+}
