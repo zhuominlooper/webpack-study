@@ -19,6 +19,7 @@
     "babylon": "^6.18.0"
   },
   "dependencies": {
-    "ejs": "^3.1.8"
+    "ejs": "^3.1.8",
+    "tapable": "^2.2.1"
   }
 }

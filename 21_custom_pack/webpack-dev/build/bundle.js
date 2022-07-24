@@ -31,12 +31,21 @@
     (function(module, exports, __webpack_require__) {
       eval(`const str = __webpack_require__("./src\\a.js");
 
+__webpack_require__("./src\\index.less");
+
 console.log(str);`);
   }),
    
      "./src\a.js":
     (function(module, exports, __webpack_require__) {
       eval(`module.exports = 'hello webpack'; //node语法`);
+  }),
+   
+     "./src\index.less":
+    (function(module, exports, __webpack_require__) {
+      eval(`let style = document.createElement('style');
+style.innerHTML = "body {\\n  background-color: blueviolet;\\n}\\n";
+document.head.appendChild(style);`);
   }),
    
  });

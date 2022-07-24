@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-console.log('开始')
+console.log('开始打包...')
 const path=require('path')//webpack是node写出来的，所以用node语法
 let config = require(path.resolve('webpack.config.js'));
 
